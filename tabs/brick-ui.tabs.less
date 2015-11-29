@@ -1,0 +1,43 @@
+.brick-ui#tabs {
+	background-color: #00a1ff;
+	overflow: hidden;
+	width: auto;
+	padding-top: 7px;
+	padding-left: 7px;
+	margin: 5px 5px 0 5px;
+	list-style: none;
+	li {
+		float: left;
+		a {
+			position: relative;
+			float: left;
+			text-decoration: none;
+			transition: 0.4s;
+			color: #fff;
+			margin: 0 7px -2px 0;
+			padding: 5px 10px 10px 10px;
+			:hover,
+			:focus {
+				background: #f9f9f9;
+				color: #333;
+			}
+			:focus {
+				outline: 0;
+			}
+		}
+	}
+	#current a {
+		background-color: #f9f9f9;
+		color: #333;
+		transition: 0.5s ease;
+		z-index: 3;
+	}
+}
+.brick-ui#content {
+	background-color: #f9f9f9;
+	position: relative;
+	z-index: 2;
+	width: auto;
+	margin: 0 5px;
+	padding: 2em;
+}
