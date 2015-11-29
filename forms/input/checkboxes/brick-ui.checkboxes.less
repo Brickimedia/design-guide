@@ -1,0 +1,37 @@
+.brick-ui.checkbox {
+	width: 25px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	label {
+		border-radius: 0;
+		border: 2px solid #ccc;
+		cursor: pointer;
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		::after {
+			background-color: transparent;
+			border: 3px solid #00a1ff;
+			border-top: none;
+			border-right: none;
+			opacity: 0;
+			content: '';
+			position: absolute;
+			width: 10px;
+			height: 6px;
+			top: 6px;
+			left: 7px;
+			transform: rotate(-45deg);
+			transition: 0.2s ease-out;
+		}
+		:hover::after {
+			opacity: .5;
+			transition: .2s ease-in;
+		}
+		input[type="checkbox"]:checked + label:after {
+			opacity: 1;
+			transition: .2s ease-in;
+		}
+	}
+}
