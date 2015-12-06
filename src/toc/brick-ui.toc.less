@@ -1,16 +1,18 @@
+@import "/src/colour-palette.less";
+
 .brick-ui.toc {
-	background-color: #eee;
+	background-color: @brick-ui-cp-grey-r5;
 	border-radius: 2px;
 	display: inline-block;
 	margin: 5px;
 	padding: 10px 25px 10px 35px;
 	.left {
 		float: left;
-		border-right: 5px solid #00a1ff;
+		border-right: 5px solid @brick-ui-cp-default;
 	}
 	.right {
 		float: right;
-		border-left: 5px solid #00a1ff;
+		border-left: 5px solid @brick-ui-cp-default;
 	}
 	li a {
 		color: #4078c0;
