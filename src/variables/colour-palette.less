@@ -1,0 +1,101 @@
+/*
+	COLOR PALETTE: 
+	This color palette is created with LESS's functions 
+	and variables. It uses shade(), which darkens a color
+	with black, and tint(), which lightens a color with white. 
+	***NOTE***: Changing the color value with 5 will change 
+	the REST of the values automatically generated 
+	with the functions. Change it with caution.
+*/
+// Percent Variables (up by 9)
+@brick-ui-cp-pctdiff-v1: 9%;
+@brick-ui-cp-pctdiff-v2: 18%;
+@brick-ui-cp-pctdiff-v3: 27%;
+@brick-ui-cp-pctdiff-v4: 36%;
+
+// Red
+@brick-ui-cp-red-v1: tint(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-red-v2: tint(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-red-v3: tint(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-red-v4: tint(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-red-v5: #e02a29;
+@brick-ui-cp-red-v6: shade(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-red-v7: shade(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-red-v8: shade(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-red-v9: shade(@brick-ui-cp-red-v5, @brick-ui-cp-pctdiff-v4);
+
+// Orange
+@brick-ui-cp-orange-v1: tint(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-orange-v2: tint(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-orange-v3: tint(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-orange-v4: tint(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-orange-v5: #ff8500;
+@brick-ui-cp-orange-v6: shade(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-orange-v7: shade(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-orange-v8: shade(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-orange-v9: shade(@brick-ui-cp-orange-v5, @brick-ui-cp-pctdiff-v4);
+
+// Yellow
+@brick-ui-cp-yellow-v1: tint(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-yellow-v2: tint(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-yellow-v3: tint(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-yellow-v4: tint(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-yellow-v5: #fec400;
+@brick-ui-cp-yellow-v6: shade(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-yellow-v7: shade(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-yellow-v8: shade(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-yellow-v9: shade(@brick-ui-cp-yellow-v5, @brick-ui-cp-pctdiff-v4);
+
+// Green
+@brick-ui-cp-green-v4: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-green-v2: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-green-v3: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-green-v4: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-green-v5: #44cc4f;
+@brick-ui-cp-green-v6: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-green-v7: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-green-v8: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-green-v9: tint(@brick-ui-cp-green-v5, @brick-ui-cp-pctdiff-v4);
+
+// Blue
+@brick-ui-cp-blue-v1: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-blue-v2: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-blue-v3: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-blue-v4: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-blue-v5: #00a1ff;
+@brick-ui-cp-blue-v6: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-blue-v7: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-blue-v8: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-blue-v9: tint(@brick-ui-cp-blue-v5, @brick-ui-cp-pctdiff-v4);
+
+// Purple
+@brick-ui-cp-purple-v1: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-purple-v2: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-purple-v3: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-purple-v4: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-purple-v5: #c900ab;
+@brick-ui-cp-purple-v6: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-purple-v7: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-purple-v8: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-purple-v9: tint(@brick-ui-cp-purple-v5, @brick-ui-cp-pctdiff-v4);
+
+// Grey
+@brick-ui-cp-grey-v1: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v4);
+@brick-ui-cp-grey-v2: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-grey-v3: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-grey-v4: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-grey-v5: #ddd;
+@brick-ui-cp-grey-v6: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v1);
+@brick-ui-cp-grey-v7: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v2);
+@brick-ui-cp-grey-v8: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v3);
+@brick-ui-cp-grey-v9: tint(@brick-ui-cp-grey-v5, @brick-ui-cp-pctdiff-v4);
+
+// Black, White
+@brick-ui-cp-black: #000;
+@brick-ui-cp-white: #fff;
+
+//default color
+@brick-ui-cp-default: @brick-ui-cp-blue-r5;
+
+//link color
+@brick-ui-cp-linkcolor: @brick-ui-cp-default;
