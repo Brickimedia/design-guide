@@ -1,3 +1,7 @@
+@import '/variables/colour-palette.less';
+@import '/variables/mixins.less';
+@import '/variables/variables.less';
+
 .brick-ui.checkbox {
 	width: 25px;
 	position: relative;
@@ -11,8 +15,8 @@
 		width: 25px;
 		height: 25px;
 		::after {
-			background-color: transparent;
-			border: 3px solid #00a1ff;
+			background-color: @brick-ui-cp-transparent;
+			border: 3px solid @brick-ui-cp-default;
 			border-top: none;
 			border-right: none;
 			opacity: 0;
