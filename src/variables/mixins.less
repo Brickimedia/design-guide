@@ -1,11 +1,20 @@
 @import "colour-palette.less";
+@import "variables.less"
 
-//COLOR MIXINS
+// TYPOGRAPHY
+	// Body
+.font-body { font-family: @brick-ui-font-body; }
+.font-body-performance { font-family: @brick-ui-font-body-performance; }
+	// Headings
+.font-heading { font-family: @brick-ui-font-heading; }
+.font-heading-performance { font-family: @brick-ui-font-heading-performance; }
+	// Source Code
+.font-sourcecode { font-family: @brick-ui-font-sourcecode; }
+.font-sourcecode-performance { font-family: @brick-ui-font-sourcecode-performance; }
 
-.bg--v1 { background-color: @brick-ui-cp--v1; }
-
-// Text Colors
-// Red
+// COLOR MIXINS
+	// Text color
+		// Red
 .txtc-red-v1 { color: @brick-ui-cp-red-v1; }
 .txtc-red-v2 { color: @brick-ui-cp-red-v2; }
 .txtc-red-v3 { color: @brick-ui-cp-red-v3; }
@@ -16,7 +25,7 @@
 .txtc-red-v8 { color: @brick-ui-cp-red-v8; }
 .txtc-red-v8 { color: @brick-ui-cp-red-v9; }
 
-//Orange
+		// Orange
 .txtc-orange-v1 { color: @brick-ui-cp-orange-v1; }
 .txtc-orange-v2 { color: @brick-ui-cp-orange-v2; }
 .txtc-orange-v3 { color: @brick-ui-cp-orange-v3; }
@@ -27,7 +36,7 @@
 .txtc-orange-v8 { color: @brick-ui-cp-orange-v8; }
 .txtc-orange-v9 { color: @brick-ui-cp-orange-v9; }
 
-// Yellow
+		// Yellow
 .txtc-yellow-v1 { color: @brick-ui-cp-yellow-v1; }
 .txtc-yellow-v2 { color: @brick-ui-cp-yellow-v2; }
 .txtc-yellow-v3 { color: @brick-ui-cp-yellow-v3; }
@@ -38,7 +47,7 @@
 .txtc-yellow-v8 { color: @brick-ui-cp-yellow-v8; }
 .txtc-yellow-v9 { color: @brick-ui-cp-yellow-v9; }
 
-// Green
+		// Green
 .txtc-green-v1 { color: @brick-ui-cp-green-v1; }
 .txtc-green-v2 { color: @brick-ui-cp-green-v2; }
 .txtc-green-v3 { color: @brick-ui-cp-green-v3; }
@@ -49,7 +58,7 @@
 .txtc-green-v8 { color: @brick-ui-cp-green-v8; }
 .txtc-green-v9 { color: @brick-ui-cp-green-v9; }
 
-// Blue
+		// Blue
 .txtc-blue-v1 { color: @brick-ui-cp-blue-v1; }
 .txtc-blue-v2 { color: @brick-ui-cp-blue-v2; }
 .txtc-blue-v3 { color: @brick-ui-cp-blue-v3; }
@@ -60,7 +69,7 @@
 .txtc-blue-v8 { color: @brick-ui-cp-blue-v8; }
 .txtc-blue-v9 { color: @brick-ui-cp-blue-v9; }
 
-// Purple
+		// Purple
 .txtc-purple-v1 { color: @brick-ui-cp-purple-v1; }
 .txtc-purple-v2 { color: @brick-ui-cp-purple-v2; }
 .txtc-purple-v3 { color: @brick-ui-cp-purple-v3; }
@@ -71,7 +80,7 @@
 .txtc-purple-v8 { color: @brick-ui-cp-purple-v8; }
 .txtc-purple-v9 { color: @brick-ui-cp-purple-v9; }
 
-// Grey
+		// Grey
 .txtc-grey-v1 { color: @brick-ui-cp-grey-v1; }
 .txtc-grey-v2 { color: @brick-ui-cp-grey-v2; }
 .txtc-grey-v3 { color: @brick-ui-cp-grey-v3; }
@@ -82,15 +91,15 @@
 .txtc-grey-v8 { color: @brick-ui-cp-grey-v8; }
 .txtc-grey-v9 { color: @brick-ui-cp-grey-v9; }
 
-// Black, White
+		// Black, white
 .txtc-black { color: @brick-ui-cp-black; }
 .txtc-white { color: @brick-ui-cp-white; }
 
-// Default Text Color
+		// Default text color
 .txtc-default { color: @brick-ui-cp-default; }
 
-// Background Colors 
-// Red
+	// Background Colors 
+		// Red
 .bg-red-v1 { background-color: @brick-ui-cp-red-v1; }
 .bg-red-v2 { background-color: @brick-ui-cp-red-v2; }
 .bg-red-v3 { background-color: @brick-ui-cp-red-v3; }
@@ -101,7 +110,7 @@
 .bg-red-v8 { background-color: @brick-ui-cp-red-v8; }
 .bg-red-v9 { background-color: @brick-ui-cp-red-v9; }
 
-// Orange
+		// Orange
 .bg-orange-v1 { background-color: @brick-ui-cp-orange-v1; }
 .bg-orange-v2 { background-color: @brick-ui-cp-orange-v2; }
 .bg-orange-v3 { background-color: @brick-ui-cp-orange-v3; }
@@ -112,7 +121,7 @@
 .bg-orange-v8 { background-color: @brick-ui-cp-orange-v8; }
 .bg-orange-v9 { background-color: @brick-ui-cp-orange-v9; }
 
-// Yellow
+		// Yellow
 .bg-yellow-v1 { background-color: @brick-ui-cp-orange-v1; }
 .bg-yellow-v2 { background-color: @brick-ui-cp-orange-v2; }
 .bg-yellow-v3 { background-color: @brick-ui-cp-orange-v3; }
@@ -123,7 +132,7 @@
 .bg-yellow-v8 { background-color: @brick-ui-cp-orange-v8; }
 .bg-orange-v9 { background-color: @brick-ui-cp-orange-v9; }
 
-// Green
+		// Green
 .bg-green-v1 { background-color: @brick-ui-cp-green-v1; }
 .bg-green-v2 { background-color: @brick-ui-cp-green-v2; }
 .bg-green-v3 { background-color: @brick-ui-cp-green-v3; }
@@ -134,7 +143,7 @@
 .bg-green-v8 { background-color: @brick-ui-cp-green-v8; }
 .bg-green-v9 { background-color: @brick-ui-cp-green-v9; }
 
-// Blue
+		// Blue
 .bg-blue-v1 { background-color: @brick-ui-cp-blue-v1; }
 .bg-blue-v2 { background-color: @brick-ui-cp-blue-v2; }
 .bg-blue-v3 { background-color: @brick-ui-cp-blue-v3; }
@@ -145,7 +154,7 @@
 .bg-blue-v8 { background-color: @brick-ui-cp-blue-v8; }
 .bg-blue-v9 { background-color: @brick-ui-cp-blue-v9; }
 
-// Purple
+		// Purple
 .bg-purple-v1 { background-color: @brick-ui-cp-purple-v1; }
 .bg-purple-v2 { background-color: @brick-ui-cp-purple-v2; }
 .bg-purple-v3 { background-color: @brick-ui-cp-purple-v3; }
@@ -156,7 +165,7 @@
 .bg-purple-v8 { background-color: @brick-ui-cp-purple-v8; }
 .bg-purple-v9 { background-color: @brick-ui-cp-purple-v9; }
 
-// Grey
+		// Grey
 .bg-grey-v1 { background-color: @brick-ui-cp-grey-v1; }
 .bg-grey-v2 { background-color: @brick-ui-cp-grey-v2; }
 .bg-grey-v3 { background-color: @brick-ui-cp-grey-v3; }
@@ -167,9 +176,9 @@
 .bg-grey-v8 { background-color: @brick-ui-cp-grey-v8; }
 .bg-grey-v9 { background-color: @brick-ui-cp-grey-v9; }
 
-// Black, White
+		// Black, White
 .bg-black { background-color: @brick-ui-cp-black; }
 .bg-white { background-color: @brick-ui-cp-white; }
 
-// Default Background
+		// Default Background
 .bg-default { background-color: @brick-ui-cp-default; }
