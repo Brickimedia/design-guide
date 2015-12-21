@@ -1,3 +1,7 @@
+@import "/variables/colour-palette.less";
+@import "/variables/mixins.less";
+@import "/variables/variables.less";
+
 .brick-ui.button {
 	border-radius: 2px;
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
@@ -14,7 +18,7 @@
 		background-color: none;
 	}
 	.regular {
-		color: #fff;
+		color: @brick-ui-cp-white;
 	}
 	.flat {
 		box-shadow: none;
