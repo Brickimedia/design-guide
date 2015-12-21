@@ -1,4 +1,6 @@
-@import "/src/colour-palette.less";
+@import "/src/variables/colour-palette.less";
+@import "/src/variables/mixins.less";
+@import "/src/variables/variables.less";
 
 .brick-ui.toc {
 	background-color: @brick-ui-cp-grey-r5;
@@ -15,7 +17,7 @@
 		border-left: 5px solid @brick-ui-cp-default;
 	}
 	li a {
-		color: #4078c0;
+		color: @brick-ui-cp-default;
 		text-decoration: none;
 	}
 }
