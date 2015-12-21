@@ -1,3 +1,7 @@
+@import '/variables/colour-palette.less';
+@import '/variables/mixins.less';
+@import '/variables/variables.less';
+
 .brick-ui.breadcrumbs {
 	list-style: none;
 	display: block;
@@ -8,10 +12,10 @@
 		padding: 5px 0;
 		a {
 		text-decoration: none;
-		color: #4078c0;
+		color: @brick-ui-cp-default;
 		}
 		:not(:last-child):after {
-			color: #bbb;
+			color: @brick-ui-cp-grey-v7;
 			font-weight: bold;
 			content: ">";
 			margin: 0 5px;
