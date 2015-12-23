@@ -1,10 +1,64 @@
-//Typography
-	//Body
-@brick-ui-font-body: 'Lato', 'Helvetica', 'Arial', sans-serif;
-@brick-ui-font-body-performance: 'Helvetica', 'Arial', sans-serif;
-	//Headings
-@brick-ui-font-headings: 'Lato', 'Helvetica', 'Arial', sans-serif;
-@brick-ui-font-headings-performance: 'Helvetica', 'Arial', sans-serif;
-	//Source Code
-@brick-ui-font-sourcecode: 'Source Code Pro', 'Lucida Console', monospace;
-@brick-ui-font-sourcecode-performance: 'Lucida Console', monospace;
+@import "/variables/color-palette.less";
+@import "/variables/mixins.less";
+
+// Typography
+/* 
+	Variables use prefixes for organization. 
+	A prefix map is shown below:
+	- fc -> font color
+	- ff -> font family
+	- fs -> font size
+	- fv -> font variant
+	- fw -> font weight
+	- lh -> line height
+*/
+	// Base Variables
+@brick-ui-type-fs-base: 1em;
+@brick-ui-type-fw-v-thin: 100;
+@brick-ui-type-fw-v-light: 300;
+@brick-ui-type-fw-v-normal: 400;
+@brick-ui-type-fw-v-bold: 700;
+@brick-ui-type-fw-v-ultra-bold: 900;
+	// Body
+		// fc
+@brick-ui-type-fc-body: @brick-ui-cp-grey-v2;
+		// ff
+@brick-ui-type-ff-body: 'Lato', 'Helvetica', 'Arial', sans-serif;
+@brick-ui-type-ff-body-performance: 'Helvetica', 'Arial', sans-serif;
+		// fs
+@brick-ui-type-fs-body: @brick-ui-fs-base;
+		// fw
+@brick-ui-type-fw-body: @brick-ui-type-fw-v-bold;
+	// Headings
+		// fc
+@brick-ui-type-fc-heading: @brick-ui-cp-black;
+		// ff
+@brick-ui-type-ff-heading: 'Lato', 'Helvetica', 'Arial', sans-serif;
+@brick-ui-type-ff-heading-performance: 'Helvetica', 'Arial', sans-serif;
+		// fs
+@brick-ui-type-fs-heading-1: 2em;
+@brick-ui-type-fs-heading-2: 1.5em;
+@brick-ui-type-fs-heading-3: 1.18em;
+@brick-ui-type-fs-heading-4: @brick-ui-fs-base;
+@brick-ui-type-fs-heading-5: 0.875em;
+@brick-ui-type-fs-heading-6: 0.813em;
+		// fw
+@brick-ui-type-fs-heading-1: @brick-ui-type-fw-bold;
+@brick-ui-type-fs-heading-2: @brick-ui-type-fw-bold;
+@brick-ui-type-fs-heading-3: @brick-ui-type-fw-bold;
+@brick-ui-type-fs-heading-4: @brick-ui-type-fw-bold;
+@brick-ui-type-fs-heading-5: @brick-ui-type-fw-bold;
+@brick-ui-type-fs-heading-6: @brick-ui-type-fw-bold;
+	// Source Code
+		// fc
+@brick-ui-type-fc-sourcecode: @brick-ui-cp-black;
+		// ff
+@brick-ui-type-ff-sourcecode: 'Source Code Pro', 'Lucida Console', monospace;
+@brick-ui-type-ff-sourcecode-performance: 'Lucida Console', monospace;
+		// fs
+@brick-ui-type-fs-sourcecode: @brick-ui-fs-base;
+		/*
+			font weight varies because of syntax,
+			so there is no font weight variables
+			here.
+		*/
