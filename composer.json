@@ -1,0 +1,28 @@
+
+{
+	"authors": [
+		{
+			"name": "Cody Nguyen",
+			"email": "codyn1116forgithub@gmail.com",
+			"homepage": "http://codynguyen1116.github.io",
+			"role": "Project manager"
+		},
+		{
+			"name": "George Barnick"
+		},
+		{
+			"name": "MtMNC"
+		}
+	],
+	"license": "GPL-3.0+",
+	"require": {
+		"less": "2.5.3"
+	},
+	"support": {
+		"docs": "https://www.georgebarnick.photo/git/brickimedia-design-guide/",
+		"issues": "https://github.com/codynguyen1116/brickimedia-design-guide/issues",
+		"source": "https://github.com/codynguyen1116/brickimedia-design-guide",
+		"wiki": "http://www.brickimedia.org/",
+		"irc": "irc://irc.freenode.org/brickimedia"
+	}
+}
