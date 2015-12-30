@@ -6,6 +6,7 @@
 		<meta name="author" content="the Brickimedia Developers">
 		<meta name="keywords" content="design, draft, docs, documentation, brickimedia">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 		<link rel="shortcut icon" href="http://images.brickimedia.org/favicons/favicon.ico">
 		<title>Brickimedia Design</title>
 		<link rel="stylesheet/less" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic" >
@@ -37,59 +38,65 @@
 		</header>
 		<aside id="sidebar">
 			<ul>
-				<li><a href="#About_the_Draft">About the Draft</a></li>
-				<li><a href="#Licence">Licence</a></li>
-				<li><a href="#How_to_contribute">How to contribute</a></li>
-				<li><a href="#Getting_started">Getting started</a></li>
-				<li><a href="#Iconography">Iconography</a></li>
-				<li><a href="#Typography">Typography</a></li>
+				<li><a href="#h-draft">About the Draft</a></li>
 				<li>
-					<a href="#Web components">Web components</a>
+					<a href="#h-licence">Licence</a>
 					<ul>
-						<li><a href="#Breadcrumbs">Breadcrumbs</a></li>
-						<li><a href="#Buttons">Buttons</a></li>
-						<li><a href="#Dividers">Dividers</a></li>
+						<li><a href="#h-licence-requires">It requires you to..</a></li>
+						<li><a href="#h-licence-allows">It allows you to..</a></li>
+						<li><a href="#h-licence-prevents">It prevents you to..</a></li>
+					</ul>
+				</li>
+				<li><a href="#h-getting-started">Getting started</a></li>
+				<li><a href="#h-iconography">Iconography</a></li>
+				<li><a href="#h-typography">Typography</a></li>
+				<li>
+					<a href="#h-web-components">Web components</a>
+					<ul>
+						<li><a href="#h-breadcrumbs">Breadcrumbs</a></li>
+						<li><a href="#h-buttons">Buttons</a></li>
+						<li><a href="#h-dividers">Dividers</a></li>
 						<li>
-							<a href="#Form_elements">Form elements</a>
+							<a href="#h-form_elements">Form elements</a>
 							<ul>
-								<li><a href="#Textfields">Textfields</a></li>
-								<li><a href="#Checkboxes">Checkboxes</a></li>
-								<li><a href="#Radios">Radios</a></li>
-								<li><a href="#Files">Files</a></li>
+								<li><a href="#h-textfields">Textfields</a></li>
+								<li><a href="#h-checkboxes">Checkboxes</a></li>
+								<li><a href="#h-radios">Radios</a></li>
+								<li><a href="#h-files">Files</a></li>
 							</ul>
 						</li>
-						<li><a href="Headings">Headings</a></li>
-						<li><a href="#Tabs">Tabs</a></li>
+						<li><a href="#h-headings">Headings</a></li>
+						<li><a href="#h-tabs">Tabs</a></li>
 						<li>
-							<a href="#Quote_elements">Quote elements</a>
+							<a href="#h-quote-elements">Quote elements</a>
 							<ul>
-								<li><a href="#Blockquotes">Blockquotes</a>
+								<li><a href="#h-blockquotes">Blockquotes</a>
 								</li>
-								<li><a href="Pullquotes">Pullqoutes</a></li>
+								<li><a href="#h-pullquotes">Pullqoutes</a></li>
 							</ul>
 						</li>
 					</ul>
 				</li>
 			</ul>
 		</aside>
-		<main>
+		<main id="content">
 			<article id="draft">
-				<section id="about">
-					<h2>About the Draft</h2>
+				<section id="sect-draft">
+					<h2 id="h-draft">About the Draft</h2>
 					<p>This is a work-in-progress draft created for Brickimedia, an online LEGO community. We want to improve the experience for users by  making navigation more fluid, simplifying the appearance, along with providing the same feeling for users with different devices. Our principle focuses on design without distractions. No more squnting your eyes to read texts with a miniscule font size, or scrolling your screen to look at the stuff overflowing the webpage. Your priority is our priority.<p>
-					<br>
+					<p>Want to contribute? Learn how to contribute at the project's <a href="CONTRIBUTING.md">contributing guidelines</a>.</p>
 					<p>Code for this documentation is open sourced and available on <a href="//github.com/codynguyen1116/brickimedia-design-guide" target="_blank">GitHub</a>.</p>
 				</section>
-				<section id="licence">
-					<h2>Licence</h2>
+				<section id="sect-licence">
+					<h2 id="h-licence">Licence</h2>
 					<p>This project is released under the GNU General Public Licence of version 3.0. It is located at <a href="LICENSE">LICENSE</a>. The full version of GPL v3.0 can be seen at the <a href="http://choosealicense.com/licenses/gpl-3.0/">official site</a> of GNU.org. The short version means that it:</p>
-					<h3>Requires you to:</h3>
+					<h3 id="h-licence-requires">Requires you to:</h3>
 					<ul>
 						<li>Make the source code of the library and not the entire program available under this licence.</li>
 						<li>Show when major changes are made to the source code of the software.</li>
 						<li>Include a copy of the copyright noticce and licence with the code.</li>
 					</ul>
-					<h3>Allows you to:</h3>
+					<h3 id="h-licence-allows">Allows you to:</h3>
 					<ul>
 						<li>Use this software and other derivitaves or forms of it for commercial purposes.</li>
 						<li>Distribute this software with proper attribution.</li>
@@ -97,40 +104,64 @@
 						<li>Receive patent rights.</li>
 						<li>Use this software privately without distributing it.</li>
 					</ul>
-					<h3>Prevents you from</h3>
+					<h3 id="h-licence-prevents">Prevents you from</h3>
 					<ul>
 						<li>Holding the licence owners and authors liable for breaking changes and damages to the software of the Brickimedia Framework.</li>
 						<li>Distributing the software without proper attribution.</li>
 					</ul>
 				</section>
-				<section id="contribute">
-					<h2>How to contribute</h2>
+				<section id="sect-getting-started">
+					<h2 id="h-getting-started">Getting started</h2>
+				</section>
+				<section id="sect-iconography">
+					<h2 id="h-iconography">Iconography</h2>
+				</section>
+				<section id="sect-typography">
+					<h2 id="h-typography">Typography</h2>
+				</section>
+				<section id="sect-web-components">
+					<h2 id="h-web-components">Web components</h2>
 					<p></p>
-				</section>
-				<section id="getting-started">
-					<h2>Getting started</h2>
-				</section>
-				<section id="iconography">
-					<h2>Iconography</h2>
-				</section>
-				<section id="typography">
-					<h2>Typography</h2>
-				</section>
-				<section id="web-components">
-					<h2>Web components</h2>
-					<h3>Breadcrumbs</h3>
-					<h3>Buttons</h3>
-					<h3>Dividers</h3>
-					<h3>Form elements</h3>
-					<h4>Textfields</h4>
-					<h4>Checkboxes</h4>
-					<h4>Radios</h4>
-					<h4>Files</h4>
-					<h3>Headings</h3>
-					<h3>Tabs</h3>
-					<h3>Quote elements</h3>
-					<h4>Blockquotes</h4>
-					<h4>Pullquotes</h4>
+					<section id="sect-breadcrumbs">
+						<h3 id="h-breadcrumbs">Breadcrumbs</h3>
+						<p></p>
+					</section>
+					<section id="sect-buttons">
+						<h3 id="h-buttons">Buttons</h3>
+					</section>
+					<section id="sect-dividers">
+						<h3 id="h-dividers">Dividers</h3>
+					</section>
+					<section id="sect-form-elements">
+						<h3 id="h-form-elements">Form elements</h3>
+						<section id="sect-textfields">
+							<h4 id="h-textfields">Textfields</h4>
+						</section>
+						<section id="sect-checkboxes">
+							<h4 id="h-checkboxes">Checkboxes</h4>
+						</section>
+						<section id="sect-radios">
+							<h4 id="h-radios">Radios</h4>
+							</section>
+						<section id="sect-radios">
+							<h4 id="h-files">Files</h4>
+						</section>
+					</section>
+					<section id="sect-headings">
+						<h3 id="h-headings">Headings</h3>
+					</section>
+					<section id="sect-tabs">
+						<h3 id="h-tabs">Tabs</h3>
+					</section>
+					<section id="sect-quote-elements">
+						<h3 id="h-quote-elements">Quote elements</h3>
+						<section id="sect-blockquotes">
+							<h4 id="h-blockquotes">Blockquotes</h4>
+						</section>
+						<section id="sect-pullquotes">
+							<h4 id="h-pullquotes">Pullquotes</h4>
+						</section>
+					</section>
 				</section>
 			</article>
 		</main>
