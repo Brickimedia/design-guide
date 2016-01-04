@@ -32,8 +32,9 @@
 		<meta name="msapplication-config" content="/src/images/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 		<title>Brickimedia Design</title>
-		<link rel="stylesheet/less" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic" >
-		<link rel="stylesheet/less" type="text/css" href="designdraft.less">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic" >
+		<link rel="stylesheet" type="text/css" href="docs/prism-syntaxhighlighter/prism.css"  />
+		<link rel="stylesheet/less" type="text/css" href="docs/designdraft.less">
 		<link rel="stylesheet/less" type="text/css" href="src/variables/colour-palette.less">
 		<link rel="stylesheet/less" type="text/css" href="src/variables/mixins.less">
 		<link rel="stylesheet/less" type="text/css" href="src/variables/variables.less">
@@ -50,14 +51,18 @@
 		<link rel="stylesheet/less" type="text/css" href="src/quotes/pullquotes/brick-ui.pullquotes.less">
 		<link rel="stylesheet/less" type="text/css" href="src/tabs/brick-ui.tabs.less">
 		<link rel="stylesheet/less" type="text/css" href="src/toc/brick-ui.toc.less">
-		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js" defer></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js" async></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" defer></script>
+		<script src="docs/prism-syntax-highlighter/prism.js" async></script>
 		<script src="src/tabs/brick-ui.tabs.js" defer></script>
 		
 	</head>
 	<body>
 		<header id="header">
 			<h1>Brickimedia Design</h1>
+			<form>
+				
+			</form>
 		</header>
 		<aside id="sidebar">
 			<img class="logo" src="src/images/logo-brickimedia-white.svg" alt="Brickimedia" width="200">
@@ -107,6 +112,7 @@
 				<section id="sect-draft">
 					<h2 id="h-draft">About the Draft</h2>
 					<p>This is a work-in-progress draft created for Brickimedia, an online LEGO community. We want to improve the experience for users by  making navigation more fluid, simplifying the appearance, along with providing the same feeling for users with different devices. Our principle focuses on design without distractions. No more squnting your eyes to read texts with a miniscule font size, or scrolling your screen to look at the stuff overflowing the webpage. Your priority is our priority.<p>
+					<p>We do our best to employ modern technology such as HTML5 to ensure readable code that makes sense, along with making the site accessible to those with disabilities. We also use Less.js, a preprocessor that expands CSS to help make it as flexible as possible. </p>
 					<p>Want to contribute? Learn how to contribute at the project's <a href="CONTRIBUTING.md">contributing guidelines</a>.</p>
 					<p>Code for this documentation is open sourced and available on <a href="//github.com/codynguyen1116/brickimedia-design-guide" target="_blank">GitHub</a>.</p>
 				</section>
