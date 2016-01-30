@@ -16,7 +16,7 @@ pre[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-	line-height: 1.5;
+	line-height: 1;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -30,7 +30,7 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: 1em;
+	padding: 0 1em 0 1em;
 	margin: .5em 0;
 	overflow: auto;
 	border-radius: 0.3em;
@@ -120,4 +120,3 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
